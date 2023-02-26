@@ -35,7 +35,7 @@ class MyDocument extends Document {
           href="/TBBGIF.png"
         />
         {/* CONFIGURABLE: You'll probably want to configure this all to have custom meta tags and title to fit your application */}
-        <title>Reservoir Market | Open Source NFT Marketplace</title>
+        <title>BlueBoxGC Marketplace | Built By Gamers</title>
         <meta name="description" content={description} />
         <meta name="keywords" content="NFT, DAO, Gaming, Marketplace, Esports" />
         {/* Twitter */}
