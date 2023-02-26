@@ -120,6 +120,7 @@ export default ({
               height: '100%',
               borderRadius: 0,
               aspectRatio: '1/1',
+              objectFit: 'contain',
             }}
             preview={showPreview}
             audioOptions={{
