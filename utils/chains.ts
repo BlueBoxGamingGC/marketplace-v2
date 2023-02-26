@@ -1,5 +1,5 @@
 import { constants } from 'ethers'
-import { goerli, mainnet, polygon } from 'wagmi/chains'
+import { optimism, mainnet, polygon } from 'wagmi/chains'
 
 //CONFIGURABLE: The default export controls the supported chains for the marketplace. Removing
 // or adding chains will result in adding more or less chains to the marketplace.
@@ -37,11 +37,11 @@ export default [
     apiKey: process.env.POLYGON_RESERVOIR_API_KEY,
   },
   {
-    ...goerli,
-    iconUrl: `https://api-goerli.reservoir.tools/redirect/currency/${constants.AddressZero}/icon/v1`,
-    reservoirBaseUrl: 'https://api-goerli.reservoir.tools',
-    proxyApi: '/api/reservoir/goerli',
-    routePrefix: 'goerli',
-    apiKey: process.env.GOERLI_RESERVOIR_API_KEY,
+    ...optimism,
+    iconUrl: `https://api-optimism.reservoir.tools/redirect/currency/${constants.AddressZero}/icon/v1`,
+    reservoirBaseUrl: 'https://api-optimism.reservoir.tools',
+    proxyApi: '/api/reservoir/optimism',
+    routePrefix: 'optimism',
+    apiKey: process.env.OPTIMISM_RESERVOIR_API_KEY,
   },
 ]
