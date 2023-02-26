@@ -15,7 +15,7 @@ class MyDocument extends Document {
 
   render() {
     const description =
-      'Reservoir Market is an open source NFT marketplace built with Reservoir.'
+      'BlueBoxGC Marketplace is an open source NFT marketplace built with Reservoir.'
     const ogImage = 'https://marketplace.reservoir.tools/og-image.png'
     return (
       <Html>
@@ -31,28 +31,28 @@ class MyDocument extends Document {
         <meta name="keywords" content="nft, ethereum, protocol" />
         <link
           rel="shortcut icon"
-          type="image/svg"
-          href="https://marketplace.reservoir.tools/reservoir.svg"
+          type="image/png"
+          href="/TBBGIF.png"
         />
         {/* CONFIGURABLE: You'll probably want to configure this all to have custom meta tags and title to fit your application */}
         <title>Reservoir Market | Open Source NFT Marketplace</title>
         <meta name="description" content={description} />
-        <meta name="keywords" content="NFT, API, Protocol" />
+        <meta name="keywords" content="NFT, DAO, Gaming, Marketplace, Esports" />
         {/* Twitter */}
         {/* The optimal size is 1200 x 630 (1.91:1 ratio). */}
         <meta name="twitter:image" content={ogImage} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Reservoir Market | Open Source NFT Marketplace"
+          content="BlueBoxGC Marketplace | Built By Gamers"
         />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:site" content="@reservoir0x" />
+        <meta name="twitter:site" content="@BlueBoxGC" />
 
         {/* OG Tags - https://ogp.me/ */}
         <meta
           name="og:title"
-          content="Reservoir Market | Open Source NFT Marketplace"
+          content="BlueBoxGC Marketplace | Built By Gamers"
         />
         <meta property="og:type" content="website" />
         <meta property="og:determiner" content="the" />
@@ -63,11 +63,11 @@ class MyDocument extends Document {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Reservoir Market Banner" />
+        <meta property="og:image:alt" content="BlueBoxGC Market Banner" />
 
         {/* CONFIGURABLE: Reservoir meta tags can be configured to your application, learn more here: https://docs.reservoir.tools/docs/reservoir-meta-tags */}
-        <meta property="reservoir:title" content="Reservoir Market" />
-        <meta property="reservoir:icon" content="/reservoir-source-icon.png" />
+        <meta property="reservoir:title" content="BlueBoxGC Market" />
+        <meta property="reservoir:icon" content="/TBBGIF.png" />
         <meta
           property="reservoir:token-url-mainnet"
           content="/collection/ethereum/${contract}/${tokenId}"
@@ -79,6 +79,10 @@ class MyDocument extends Document {
         <meta
           property="reservoir:token-url-polygon"
           content="/collection/polygon/${contract}/${tokenId}"
+        />
+        <meta
+          property="reservoir:token-url-optimism"
+          content="/collection/optimism/${contract}/${tokenId}"
         />
         <body>
           <Main />
