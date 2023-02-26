@@ -1,6 +1,6 @@
 <h3 align="center">Reservoir Market v2</h3>
   <p align="center">
-An open source NFT marketplace built on Reservoir.
+An open source NFT marketplace built on Reservoir. Forked for BlueBoxGC
 
 <!-- ABOUT THE PROJECT -->
 
